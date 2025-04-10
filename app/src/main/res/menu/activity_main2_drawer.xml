@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_guidelines"
+            android:icon="@drawable/book"
+            android:title="Guidelines" />
+
+        <item
+            android:id="@+id/nav_video_guidelines"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video Guidelines" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notification_bell"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_events_competition"
+            android:icon="@drawable/eventscompetition"
+            android:title="Events/Competition" />
+
+        <item
+            android:id="@+id/nav_report_complain"
+            android:icon="@drawable/complain"
+            android:title="Reprt/Complain" />
+
+        <item
+            android:id="@+id/nav_collection_update"
+            android:icon="@drawable/collection_update"
+            android:title="Collection Update" />
+
+    </group>
+</menu>

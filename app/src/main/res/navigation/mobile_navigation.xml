@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartsegregationworker.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_guidelines"
+        android:name="com.example.smartsegregationworker.ui.guidelines.GuidelinesFragment"
+        android:label="Guidelines"
+        tools:layout="@layout/fragment_guidelines" />
+
+    <fragment
+        android:id="@+id/nav_video_guidelines"
+        android:name="com.example.smartsegregationworker.ui.videoguidelines.VideoGuidelinesFragment"
+        android:label="Video Guidelines"
+        tools:layout="@layout/fragment_video_guidelines" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.smartsegregationworker.ui.notifications.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_events_competition"
+        android:name="com.example.smartsegregationworker.ui.eventscompetition.EventCompetitionFragment"
+        android:label="Events/Competition"
+        tools:layout="@layout/fragment_event_competition" />
+
+    <fragment
+        android:id="@+id/nav_report_complain"
+        android:name="com.example.smartsegregationworker.ui.reportcomplain.ReportComplainFragment"
+        android:label="Report/Complain"
+        tools:layout="@layout/fragment_report_complain" />
+
+    <fragment
+        android:id="@+id/nav_collection_update"
+        android:name="com.example.smartsegregationworker.ui.collectionupdate.CollectionUpdateFragment"
+        android:label="Collection Update"
+        tools:layout="@layout/fragment_collection_update" />
+
+</navigation>
